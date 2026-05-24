@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "bt-dualboot"
-version = "1.0.1"
+version = "1.1.0"
 description = "Sync Bluetooth for dualboot Linux and Windows"
 keywords = [ "bluetooth", "dualboot", "sync", "pairing", "keys" ]
-authors = ["Konstantin Ivanov <KEIvanov@gmail.com>"]
+authors = ["Konstantin Ivanov <KEIvanov@gmail.com>", "Aleksander Feliks Łagowiec <lagowiecdev@o2.pl"]
 readme = "README.md"
-homepage = "https://github.com/x2es/bt-dualboot.git"
-repository = "https://github.com/x2es/bt-dualboot.git"
+homepage = "https://github.com/lagowiecdev/bt-dualboot-arch"
+repository = "https://github.com/lagowiecdev/bt-dualboot-arch"
 license = "MIT"
 
 classifiers = [
