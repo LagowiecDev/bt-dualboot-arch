@@ -1,4 +1,4 @@
-pkgname=bt-dualboot-arhc
+pkgname=bt-dualboot
 _pkgname=bt_dualboot
 pkgver=1.1.0
 pkgrel=5
@@ -9,9 +9,11 @@ makedepends=('git' 'python-installer' 'python-wheel' 'python-build' 'python-poet
 depends=('python' 'chntpw')
 
 build(){
+    cd "$startdir"
 	python -m build --wheel --no-isolation
 }
 
 package() {
+    cd "$startdir"
 	python -m installer --destdir="$pkgdir" dist/*.whl
 }
